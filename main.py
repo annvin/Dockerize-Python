@@ -30,5 +30,5 @@ res = worksheet.get_all_records()
 print(res)
 #file2 = 'output.json'
 #json_object = json.dumps(res, indent=4)
-#with open(os.path.join(path, file2), "w") as outfile:
-    #outfile.write(json_object)
+with open("output.json", "w") as outfile:
+      outfile.write(str(res))
